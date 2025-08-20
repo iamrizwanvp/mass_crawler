@@ -1,6 +1,9 @@
 Make sure these tools installed first
 Before installing check GO installed in your system
 
+# Install Go First
+sudo apt install -y golang-go git curl wget build-essential 
+
 # Install hakrawler
 go install github.com/hakluke/hakrawler@latest
 
