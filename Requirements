@@ -6,6 +6,9 @@ sudo apt install -y golang-go git curl wget build-essential
 
 # Install hakrawler
 go install github.com/hakluke/hakrawler@latest
+echo 'export PATH=$PATH:$HOME/go/bin' >> ~/.bashrc
+source ~/.bashrc
+
 
 # Katana
 go install github.com/projectdiscovery/katana/cmd/katana@latest
