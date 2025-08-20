@@ -1,0 +1,11 @@
+Make sure these tools installed first
+Before installing check GO installed in your system
+
+# Install hakrawler
+go install github.com/hakluke/hakrawler@latest
+
+# Katana
+go install github.com/projectdiscovery/katana/cmd/katana@latest
+
+# Waybackurls
+go install github.com/tomnomnom/waybackurls@latest
